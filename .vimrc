@@ -1,3 +1,6 @@
+" abbreviate
+ab msg MessageBox(hwnd,"","Title",MB_OK);
+
 " basic setting
 set novb
 set nobackup
@@ -63,6 +66,7 @@ endfunction
 
 nmap <F5> :call SetTabDisplayAttribute() <cr>
 nmap <F4> :call SetMyColorSchemeB() <cr>
+nmap <F6> :close <cr>
 nmap wv <c-w>v
 nmap rr :reg <cr>
 " ctags相关的mapping
