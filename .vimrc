@@ -5,6 +5,7 @@ ab msg MessageBox(hwnd,"","Title",MB_OK);
 set novb
 set nobackup
 set noswapfile
+set hlsearch
 
 " folding
 set foldmethod=indent
@@ -67,7 +68,7 @@ endfunction
 nmap <F5> :call SetTabDisplayAttribute() <cr>
 nmap <F4> :call SetMyColorSchemeB() <cr>
 nmap <F6> :close <cr>
-nmap wv <c-w>v
+nmap ; :
 nmap rr :reg <cr>
 " ctags相关的mapping
 nmap mi <c-]>
