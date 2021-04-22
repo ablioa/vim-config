@@ -26,7 +26,7 @@ set nu
 set numberwidth=3
 set relativenumber
 set cul
-set cc=80
+"set cc=80
 
 " set indent on
 set autoindent
