@@ -41,6 +41,14 @@ set tabstop=2
 
 set showmatch
 
+set hls
+"let Tlist_Auto_Open=1
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+highlight WhitespaceEOL ctermbg=red guibg=red
+match WhitespaceEOL /\s\+$/
+
+
 let g:tstatus=0
 function SetTabDisplayAttribute()
     if g:tstatus==0
@@ -80,4 +88,5 @@ imap jk <esc>
 
 " nerdtree相关的mapping t
 nmap ts :NERDTree<cr>
+nmap ms :Tlist<cr>
 nmap tc <c-w>hq:
